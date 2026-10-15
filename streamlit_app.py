@@ -124,7 +124,7 @@ def style(cfg):
     st.markdown(
         f"""
         <style>
-          .block-container {{max-width: 1180px; padding-top: 1.2rem;}}
+          .block-container {{max-width: 1180px; padding-top: 3.75rem;}}
           [data-testid="stMetricValue"] {{font-variant-numeric: tabular-nums;}}
           .brandbar {{display:flex; align-items:center; justify-content:space-between; gap:16px;
                       background:{band}; border-radius:14px; padding:14px 22px; margin-bottom:18px;}}
