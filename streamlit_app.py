@@ -1,4 +1,4 @@
-"""Dashboard Registreermijnmerk: Google Ads + GA4, live via de Windsor.ai API."""
+"""Dashboard CKH Advocaten: Google Ads + GA4, live via de Windsor.ai API."""
 import hmac
 import re
 from datetime import datetime
@@ -488,14 +488,14 @@ def run(cfg):
 # Instellingen voor deze klant
 # ---------------------------------------------------------------------------
 run({
-    "name": "Registreermijnmerk",
-    "logo_url": "https://186.wpcdnnode.com/registreermijnmerk.nl/wp-content/uploads/2022/08/rmm-logo_small_grey.png",
-    # Merkkleuren: hoofdkleur komt van de website, controleer de tweede kleur
-    "primary": "#113D55",
-    "accent": "#4FA3C7",
-    "logo_background": "#113D55",
-    "logo_text_color": "#FFFFFF",
-    "ads_account": "9668639557",   # Google Ads 966-863-9557
-    "ga4_account": "258700295",    # GA4 Registreermijnmerk
-    "calls_are_leads": False,      # alleen formulieren zijn leads
+    "name": "CKH Advocaten",
+    "logo_url": "https://www.ckh-advocaten.nl/wp-content/uploads/2023/06/ckhlogo.png",
+    # Merkkleuren: pas deze hexcodes aan naar de officiele kleuren van CKH
+    "primary": "#1E2A38",          # hoofdkleur (titels, formulieren in de grafiek)
+    "accent": "#B8975A",           # tweede kleur (klik om te bellen)
+    "logo_background": "#FFFFFF",  # achtergrond van de balk met het logo
+    "logo_text_color": "#1E2A38",
+    "ads_account": "1708056711",   # Google Ads 170-805-6711
+    "ga4_account": "303268573",    # GA4 CKH Advocaten
+    "calls_are_leads": True,       # bellen telt net zo zwaar als formulieren
 })
